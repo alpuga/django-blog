@@ -75,15 +75,15 @@ WSGI_APPLICATION = 'djangoblog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'mysql.connector.django',
         'NAME': 'test',
         'USER': 'root',
-        'PASSWORD': 'Alexpuga8'
+        'PASSWORD': 'YOUR_PASSWORD'
     }
 }
 
 
-# Password validation
+# Pa.sword validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
