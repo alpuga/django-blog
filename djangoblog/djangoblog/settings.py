@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'posts'
 ]
 
 MIDDLEWARE = [
@@ -76,9 +77,9 @@ WSGI_APPLICATION = 'djangoblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django',
-        'NAME': 'test',
+        'NAME': 'blog',
         'USER': 'root',
-        'PASSWORD': 'YOUR_PASSWORD'
+        'PASSWORD': 'Alexpuga8'
     }
 }
 
